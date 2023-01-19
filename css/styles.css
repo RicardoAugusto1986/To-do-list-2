@@ -1,0 +1,47 @@
+/* Geral */
+
+* {
+    padding: 0;
+    margin: 0;
+    color: rgb(45, 40, 40);
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/tree-736885__340.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+button {
+    background-color: blanchedalmond;
+    color: blue;
+    border: 2px solid #d5dce6;
+    box-shadow: 6px 20px 28px -6px rgba(0, 0, 0, 0.75);
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #102f5e;
+    color: #fff;
+}
+
+button:hover>i {
+    color: #fff;
+}
+
+button i {
+    counter-reset: #102f5e;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+input,
+select {
+    padding: .25rem;
+}
