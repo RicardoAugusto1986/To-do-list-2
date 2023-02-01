@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    color: rgb(45, 40, 40);
+    color: rgb(140, 91, 91);
     box-sizing: border-box;
 }
 
@@ -43,5 +43,52 @@ button i {
 
 input,
 select {
-    padding: .25rem;
-}
+    padding: .25rem .05rem;
+    }
+    
+    .hide {
+        display: none;
+    }
+    
+    /* TODO header */
+    
+    .todo-container {
+        max-width: 450px;
+        margin: 3rem auto;
+        background-color: #fdfdfd;
+        padding: 1.5rem;
+        border-radius: 15px;
+    }
+    
+    .todo-container header {
+        text-align: center;
+        padding: 0 1rem 1rem;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    /* Todo forme*/
+    
+    #todo-form,
+    #edit-form {
+        padding: 1rem;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    #todo-form p,
+    #edit-form p {
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+    }
+    
+    .form-control {
+        display: flex;
+    }
+    
+    .form-control input {
+        margin-right: .3rem;
+    }
+    
+    #cancel-edit-btn {
+        margin-top: 1rem;
+    }
+/* TODO toolbar */
